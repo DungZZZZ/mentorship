@@ -6,11 +6,15 @@
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
     display: flex;
     justify-content: center;
-    position: relative;
-    top: 30px; /* Adjust the top value to float it */
+    position: fixed;
+    top: 30px; /* Adjust this value to control the vertical position */
+    left: 50%; /* Center horizontally */
+    transform: translateX(-50%); /* Align center horizontally */
     z-index: 10;
     max-width: 1200px;
+    width: calc(100% - 40px); /* Responsive width with some padding */
     margin: 0 auto;
+    align-items: center;
 }
 
 .navbar-container {
@@ -26,12 +30,12 @@
 }
 
 .logo-image {
-    height: 30px;
+    height: 40px;
     margin-right: 8px;
 }
 
 .logo-text {
-    font-weight: none;
+    font-weight: normal; /* 'none' is not valid, use 'normal' */
     color: #000;
 }
 
