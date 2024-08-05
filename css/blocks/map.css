@@ -1,0 +1,85 @@
+/* Map Block Section */
+.map-block {
+    padding: 80px 20px;
+    background-color: #ffffff;
+    font-family: "General Sans", sans-serif;
+}
+
+.map-block__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    font-family: "General Sans", sans-serif;
+}
+
+.map-block__content {
+    flex: 0.8; 
+    padding-right: 40px; 
+}
+
+.map-block__heading {
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #666;
+    margin-bottom: 10px;
+    letter-spacing: 1px;
+    font-family: "General Sans", sans-serif;
+}
+
+.map-block__title {
+    font-size: 36px;
+    line-height: 1.2;
+    color: var(--c-ebony); 
+    margin-bottom: 30px;
+    font-weight: 700;
+}
+
+.map-block__title .highlight {
+    font-family: "Gotcha", cursive;
+    font-weight: 400;
+    color: var(--c-turquoise);
+}
+
+.map-block__subheading {
+    font-size: 18px;
+    font-weight: 600;
+    color: var(--c-ebony); 
+    margin-bottom: 20px;
+    font-family: "General Sans", sans-serif;
+}
+
+.map-block__states {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-size: 18px;
+    color: var(--c-ebony); 
+    font-family: "General Sans", sans-serif;
+}
+
+.map-block__states li {
+    margin-bottom: 10px;
+    cursor: pointer;
+    padding: 10px 20px; 
+    border-radius: 25px; 
+    transition: background-color 0.3s ease, color 0.3s ease; 
+}
+
+.map-block__states li:hover {
+    background-color: #FFE1D6; 
+    color: #000; 
+}
+
+.map-block__image {
+    flex: 0.7; 
+    display: flex;
+    justify-content: flex-end;
+}
+
+.map-block__image img {
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+}
