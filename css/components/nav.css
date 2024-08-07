@@ -7,12 +7,12 @@
     display: flex;
     justify-content: center;
     position: fixed;
-    top: 30px; /* Adjust this value to control the vertical position */
-    left: 50%; /* Center horizontally */
-    transform: translateX(-50%); /* Align center horizontally */
+    top: 30px;
+    left: 50%; 
+    transform: translateX(-50%); 
     z-index: 10;
     max-width: 1200px;
-    width: calc(100% - 40px); /* Responsive width with some padding */
+    width: calc(100% - 40px); 
     margin: 0 auto;
     align-items: center;
 }
@@ -35,7 +35,7 @@
 }
 
 .logo-text {
-    font-weight: normal; /* 'none' is not valid, use 'normal' */
+    font-weight: normal;
     color: #000;
 }
 
@@ -57,20 +57,20 @@
     color: #333;
     display: flex;
     align-items: center;
-    gap: 5px; /* Space between text and arrow */
-    padding: 8px 15px; /* Add padding for the rounded box effect */
-    border-radius: 25px; /* Make the box rounded */
-    transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+    gap: 5px; 
+    padding: 8px 15px; 
+    border-radius: 25px; 
+    transition: background-color 0.3s ease; 
 }
 
 .navbar-menu li a:hover {
-    background-color: #FFE1D6; /* The hover color */
-    color: #000; /* Optional: Change text color on hover */
+    background-color: #FFE1D6; 
+    color: #000; 
 }
 
 .arrow-icon {
-    width: 12px; /* Adjust size as needed */
-    height: 12px; /* Adjust size as needed */
+    width: 12px; 
+    height: 12px; 
 }
 
 .navbar-actions {
