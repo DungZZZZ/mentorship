@@ -1,7 +1,7 @@
 .navbar {
     font-family: 'Arial', sans-serif;
     background-color: #fff;
-    border-radius: 25px;
+    border-radius: 30px;
     padding: 10px 20px;
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
     display: flex;
@@ -176,4 +176,52 @@
 
 .enquiry-button:hover {
     background-color: #006666;
+}
+
+.menu-button {
+    display: none; /* Hide by default */
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0; /* Remove any padding around the button */
+}
+
+.menu-icon {
+    width: 24px; /* Adjust the size of the hamburger icon as needed */
+    height: 24px;
+}
+
+@media (max-width: 768px) {
+    .navbar {
+        padding: 10px 15px; 
+        width: 80%; 
+        max-width: 90%; 
+        margin: 0 auto; 
+        border-radius: 30px; 
+    }
+
+    .enquiry-button {
+        display: none; 
+    }
+
+    .menu-button {
+        display: block; 
+    }
+
+    .navbar-menu {
+        display: none; 
+        flex-direction: column;
+        width: 100%;
+        background-color: #fff;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        padding: 10px 20px; 
+        box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+        border-radius: 10px;
+    }
+
+    .navbar-menu.open {
+        display: flex; 
+    }
 }
